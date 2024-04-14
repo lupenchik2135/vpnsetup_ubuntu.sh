@@ -323,8 +323,8 @@ link_scripts() {
 
 get_helper_scripts() {
   bigecho "Downloading helper scripts..."
-  base1="https://raw.githubusercontent.com/lupenchik2135/vpnsetup_ubuntu.sh/main/"
-  base2="https://gitlab.com/hwdsl2/setup-ipsec-vpn/-/raw/master/extras"
+  base1="https://raw.githubusercontent.com/lupenchik2135/vpnsetup_ubuntu.sh/main"
+  base2="https://raw.githubusercontent.com/lupenchik2135/gitlabvpn/main"
   sc1=ikev2setup.sh
   sc2=add_vpn_user.sh
   sc3=del_vpn_user.sh
