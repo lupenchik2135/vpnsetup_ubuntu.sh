@@ -262,7 +262,7 @@ install_vpn_pkgs() {
     set -x
     apt-get -yqq install libnss3-dev libnspr4-dev pkg-config \
       libpam0g-dev libcap-ng-dev libcap-ng-utils libselinux1-dev \
-      libcurl4-nss-dev flex bison gcc make libnss3-tools \
+      flex bison gcc make libnss3-tools \
       libevent-dev libsystemd-dev uuid-runtime ppp xl2tpd >/dev/null
   ) || exiterr2
   if [ "$os_type" = "debian" ] && [ "$os_ver" = 12 ]; then
